@@ -14,8 +14,11 @@ conversion in the serial monitor and output data through the analog pins.
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
+//Shortening Adafruit_SSD1306 library into display driver
+typedef Adafruit_SSD1306 Display_Driver;
+
 //instantiates Adafruit_SSD1306 object with respective parameters
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+Display_Driver display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 //Used as a varible in which the OLED will reference and display
 String msg;
@@ -32,8 +35,6 @@ void setup() {
      //If it fails, let the serial monitor know
     Serial.println(F("SSD1306 allocation failed"));
 
-    //Empty, "for" loop for delayed operation
-    for(;;);
   }
 
   //wait 2 seconds

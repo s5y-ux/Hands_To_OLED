@@ -9,12 +9,12 @@
 * Programmed By: Joseph R. Shumaker                                            *
 *                                                                              *
 * Purpose: This project was made to appeal to a possible internship            *
-* at JLP, This project is a comprehensive reflection of my                     *
+* at JPL, This project is a comprehensive reflection of my                     *
 * current abilities in C++ as it relates to possible technologies I may        *
 * encounter later on in the field of computer science. This project features   *
 * OOP, Data structures and algorithms, and cutting-edge open-source computer   *
-* vision and artificial intelligence libraries and models as well as data      *
-* conversion for readable data regarding integrated circuits.                  *
+* vision and artificial intelligence libraries / models. Included as well are  *
+* data conversion methods for interpretable data for integrated circuits.      *
 *                                                                              *
 * All code seen below is my original work and all information regarding the    *
 * use of library-specific methods and attributes were learned directly from    *
@@ -50,7 +50,7 @@ Video_Capture = cv2.VideoCapture(0)
 Video_Capture.set(3, 640)
 Video_Capture.set(4, 480)
 
-#Variable used to store model for Hand_Recognition (Tensorflow)
+#Variable used to store model for Hand_Recognition (TensorFlow)
 AI_Hand_Model = mediapipe.solutions.hands
 
 #Variable used to store data for hand landmarks
@@ -87,7 +87,7 @@ if(MicroController.isOpen()):
             #Uses handpoints to refer to each landmark in detection
             for Hand_Points in results.multi_hand_landmarks:
 
-                #Used to not surpass the colum width standard
+                #Used to not surpass the Column width standard
                 VCD = Video_Capture_Data
 
                 #Uses variable to reference data for Hand Connection landmarks
