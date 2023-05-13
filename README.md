@@ -25,3 +25,7 @@ The "Adafruit_GFX.h" library provides a common set of graphics functions that ar
 The "Adafruit_SSD1306.h" library is a C++ library provided by Adafruit Industries. It is specifically designed to interface with SSD1306-based OLED displays, which are commonly used in various electronic projects. This library simplifies the task of controlling and displaying content on these OLED displays.
 
 The SSD1306 is a popular display controller chip that supports monochrome OLED displays with different resolutions, such as 128x64 pixels or 128x32 pixels. The Adafruit_SSD1306 library abstracts the low-level details of communicating with the SSD1306 chip and provides a high-level interface to easily control the display.
+
+## Video
+
+https://github.com/s5y-ux/Hands_To_OLED/assets/59636597/f75a68c2-ae85-46ad-8f16-ca1bc5a2f2ea
