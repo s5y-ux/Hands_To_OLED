@@ -13,3 +13,15 @@ MediaPipe provides a rich set of pre-built components that developers can use to
 
 One of the key features of MediaPipe is its support for real-time processing on mobile and embedded devices. It leverages hardware acceleration and optimizations to achieve efficient execution and low latency, making it suitable for applications that require real-time feedback or interactive experiences. MediaPipe utilizes the underlying hardware capabilities, such as GPUs or specialized processors, to maximize performance and ensure smooth operation even on resource-constrained devices.
 <img width="1073" alt="hand-landmarks" src="https://github.com/s5y-ux/Hands_To_OLED/assets/59636597/48680f99-976f-4b2e-80fc-ee236e5d4e4c">
+
+## Adafruit's GFX Library
+
+The "Adafruit_GFX.h" library is a C++ graphics library provided by Adafruit Industries. It is designed to work in conjunction with display-specific libraries, such as the "Adafruit_SSD1306.h" library, to provide a set of graphics functions for drawing shapes, text, and images on displays.
+
+The "Adafruit_GFX.h" library provides a common set of graphics functions that are independent of the underlying display hardware. It includes functions for drawing basic shapes like lines, rectangles, circles, triangles, and rounded rectangles. Additionally, it supports font rendering for displaying text in different sizes and styles. The library also includes functions for manipulating pixels, colors, and performing basic transformations on graphical objects.
+
+## Adafruit's SSD1306 Library
+
+The "Adafruit_SSD1306.h" library is a C++ library provided by Adafruit Industries. It is specifically designed to interface with SSD1306-based OLED displays, which are commonly used in various electronic projects. This library simplifies the task of controlling and displaying content on these OLED displays.
+
+The SSD1306 is a popular display controller chip that supports monochrome OLED displays with different resolutions, such as 128x64 pixels or 128x32 pixels. The Adafruit_SSD1306 library abstracts the low-level details of communicating with the SSD1306 chip and provides a high-level interface to easily control the display.
